@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jonghwi's Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="darkStyle.css">
+    </head>
+
+<body>
+    <h1>Welcome to Jonghwi's Calculator!</h1>
+    <button id="btn" type="button" class="btn btn-light" onclick="location.href='index.html'">Light theme</button>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="display" class='td2' autofocus='autofocus' placeholder="Type here.">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="result" class='td2' placeholder="0">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" onclick="ac()" class='td1'>AC</td>
+            <td onclick="add('/')" class='td1'>/</td>
+        </tr>
+        <tr>
+            <td onclick="add('7')" class='td1'>7</td>
+            <td onclick="add('8')" class='td1'>8</td>
+            <td onclick="add('9')" class='td1'>9</td>
+            <td onclick="add('*')" class='td1'>*</td>
+        </tr>
+        <tr>
+            <td onclick="add('4')" class='td1'>4</td>
+            <td onclick="add('5')" class='td1'>5</td>
+            <td onclick="add('6')" class='td1'>6</td>
+            <td onclick="add('-')" class='td1'>-</td>
+        </tr>
+        <tr>
+            <td onclick="add('1')" class='td1'>1</td>
+            <td onclick="add('2')" class='td1'>2</td>
+            <td onclick="add('3')" class='td1'>3</td>
+            <td onclick="add('+')" class='td1'>+</td>
+        </tr>
+        <tr>
+            <td colspan="2" onclick="add('0')" class='td1'>0</td>
+            <td onclick="add('.')" class='td1'>.</td>
+            <td onclick="equal()" class='td1'>=</td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+    
+</body>
+
+<footer id='Copyright'>Copyright 2019. Jonghwi. All rights reserved.</footer>
+</html>

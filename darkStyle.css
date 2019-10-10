@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;  
+    padding-top: 20px;  
+    padding-bottom: 35px;
+    color: gold;
+}
+
+body {
+    background-position: center;
+    background-color: black;
+}
+
+table {
+    border: solid 5px white;
+    width: 40%;
+    height: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+td {
+    border: 2px solid white;
+}
+
+.td1 {
+    padding: 5px;
+    background-color: black;
+}
+
+.td2 {
+    text-align: right;
+    padding: 5px;
+}
+
+#Copyright {
+    text-align: right;
+    color: white;
+    padding-top: 40px;
+}
+
+#btn {
+    position: fixed;
+    right: 500px;
+    top: 40px;
+}
